@@ -2,6 +2,8 @@
 
 A modern, responsive, full-stack personal portfolio website developed using **React**, **TypeScript**, **Vite**, **Node.js**, and **Express.js**. This project showcases my skills, education, projects, achievements, and provides a contact system with an admin dashboard for managing inquiries.
 
+admin password=admin123
+
 ---
 
 ## 🚀 Features
