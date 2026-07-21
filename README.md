@@ -1,25 +1,134 @@
-<<<<<<< HEAD
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 💼 Personal Professional Portfolio Website
 
-# Run and deploy your AI Studio app
+A modern, responsive, full-stack personal portfolio website developed using **React**, **TypeScript**, **Vite**, **Node.js**, and **Express.js**. This project showcases my skills, education, projects, achievements, and provides a contact system with an admin dashboard for managing inquiries.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/0f804449-77b5-46b7-84f8-64bbfe186bcd
+## 🚀 Features
 
-## Run Locally
+- Responsive design for desktop, tablet, and mobile
+- Interactive Hero section
+- About Me section
+- Skills showcase
+- Projects gallery
+- Contact form
+- Admin Dashboard
+- Download CV
+- GitHub & LinkedIn integration
+- Smooth animations
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-=======
-# FUTURE_FS_01
-Personal portfolio website  to showcase skills, projects, and professional profile.
->>>>>>> 69dd8deabd6b4955120d03c89466e011f78fec75
+### Frontend
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React
+- Motion
+
+### Backend
+- Node.js
+- Express.js
+- TypeScript
+
+### Data Storage
+- JSON File (`messages.json`)
+
+### Tools
+- Visual Studio Code
+- Git & GitHub
+- npm
+
+---
+
+## 📂 Project Structure
+
+```text
+developer-portfolio/
+│
+├── assets/
+├── data/
+│   └── messages.json
+├── src/
+│   ├── components/
+│   ├── App.tsx
+│   ├── data.ts
+│   ├── index.css
+│   ├── main.tsx
+│   └── types.ts
+│
+├── .env.example
+├── .gitignore
+├── index.html
+├── package.json
+├── server.ts
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/keerthanprabhu04/FUTURE_FS_01.git
+```
+
+Navigate into the project
+
+```bash
+cd FUTURE_FS_01
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+Run the production server
+
+```bash
+npm start
+```
+
+---
+
+## 📬 Contact
+
+If you'd like to connect or discuss opportunities:
+
+- GitHub: https://github.com/keerthanprabhu04
+- LinkedIn: https://www.linkedin.com/in/keerthan-prabhu-374431329
+
+---
+
+## 📄 License
+
+This project was developed as part of my **Full Stack Web Development Internship** and is intended for educational and portfolio purposes.
